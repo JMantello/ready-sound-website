@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/RequestAQuote.css';
+import './RequestAQuote.css';
 
 const RequestAQuote = () => {
   return (

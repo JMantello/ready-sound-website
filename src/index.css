@@ -1,22 +1,38 @@
-/* CSS Reset */
-#root {
-    height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
 
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --primary-text: #343434;
+    --secondary-text: #414141;
+    --accent: #F9BC50;
+    --background: #FFFFFF;
+    --secondary-background: #E3E3E3;
+    --font-size-small: 0.8rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.5rem;
+    --font-size-xlarge: 2rem;
+}
+
 html,
 body {
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--primary-text);
+    background-color: var(--background);
 }
 
-body {
-    line-height: 1.6;
+#root {
+    height: 100vh;
 }
 
 h2 {

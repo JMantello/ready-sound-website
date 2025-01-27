@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles//LiveSoundEngineering.css';
+import './LiveSoundEngineering.css';
 
 const LiveSoundEngineering = () => {
   return (

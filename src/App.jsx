@@ -1,23 +1,14 @@
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Packages from './components/Packages'
-import ValueProps from './components/ValueProps'
-import LiveSoundEngineering from './components/LiveSoundEngineering'
-import RequestAQuote from './components/RequestAQuote'
-import Footer from './components/Footer'
+import Home from './pages/Home'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <main>
-        <ValueProps />
-        <Packages />
-        <LiveSoundEngineering />
-      </main>
-      <RequestAQuote />
-      <Footer />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
