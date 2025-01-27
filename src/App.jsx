@@ -11,9 +11,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <ValueProps />
-      <Packages />
-      <LiveSoundEngineering />
+      <main>
+        <ValueProps />
+        <Packages />
+        <LiveSoundEngineering />
+      </main>
       <RequestAQuote />
       <Footer />
     </>
