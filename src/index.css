@@ -1,17 +1,31 @@
 /* CSS Reset */
+#root {
+    height: 100vh;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: Arial, sans-serif;
 }
 
 body {
     line-height: 1.6;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+p {
+    margin: 0.5rem 0;
 }
 
 img {
@@ -24,6 +38,11 @@ a {
     color: inherit;
 }
 
-ul, ol {
-    list-style: none;
+section {
+    padding: 1rem;
+    background: #f9f9f9;
+}
+
+.value-prop {
+    margin: 1rem 0;
 }
