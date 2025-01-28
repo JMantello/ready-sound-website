@@ -27,17 +27,6 @@ p {
   padding: 0.1rem 0;
 }
 
-.package .quote-button {
-  background-color: var(--accent);
-  font-size: 1.2em;
-  margin: auto;
-  padding: 0.5rem 1rem;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  font-weight: bold;
-}
-
 .price {
   font-size: 1rem;
   color: var(--secondary-text);

@@ -16,7 +16,7 @@ const Package = ({ title, priceRange, description, includedItems, onGetQuote, im
                     ))}
                 </ul>
                 <div className="package-footer">
-                    <a className="quote-button" onClick={onGetQuote}>
+                    <a className="button" onClick={onGetQuote}>
                         Get A Quote
                     </a>
                 </div>

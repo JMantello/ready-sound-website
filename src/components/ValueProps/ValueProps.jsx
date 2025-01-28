@@ -24,7 +24,7 @@ const ValueProps = () => {
         </p>
       </div>
 
-      <a href='#packages' className='cta'>View Our Packages</a>
+      <a href='#packages' className='cta button'>View Our Packages</a>
     </section>
   );
 };
