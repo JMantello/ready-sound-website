@@ -22,8 +22,8 @@ const Footer = () => {
           <a href='/questions'>Questions</a>
           <a href='/contact'>Contact</a>
         </div>
-        <p>&copy; 2023 Ready Sound. All rights reserved.</p>
       </div>
+      <p>&copy; 2023 Ready Sound. All rights reserved.</p>
     </footer>
   );
 };
