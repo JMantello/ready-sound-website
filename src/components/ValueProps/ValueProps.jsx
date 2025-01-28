@@ -1,3 +1,5 @@
+import './ValueProps.css';
+
 const ValueProps = () => {
   return (
     <section id='value-props'>
