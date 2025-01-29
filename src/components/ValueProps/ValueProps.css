@@ -1,8 +1,40 @@
 #value-props {
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 
 .value-prop {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+.value-prop h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.icon-delivered,
+.icon-audio,
+.icon-packages {
+  margin: auto;
+  margin-bottom: 20px;
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  /* make black */
+  filter: invert(1);
+  border: none;
+}
+
+.icon-delivered {
+  background-image: url('/public/icons/delivery_truck_speed.svg');
+}
+
+.icon-audio {
+  background-image: url('/public/icons/graphic_eq.svg');
+}
+
+.icon-packages {
+  background-image: url('/public/icons/package_2.svg');
 }

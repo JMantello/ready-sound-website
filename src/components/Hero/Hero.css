@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('../../assets/sebbi-strauch-f8i4C6eJV3c-unsplash.jpg');
+  background-image: url('/public/images/curch-band.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -30,31 +30,24 @@
 .hero-subtitle,
 .hero-cta {
   position: relative;
-  /* Ensures text is above the overlay */
   z-index: 2;
 }
 
 .hero-title {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 2.4rem;
   margin: 1rem 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  /* Adds shadow to text for better readability */
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
-  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  margin: 1rem 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  /* Adds shadow to text for better readability */
 }
 
 .hero-cta {
-  margin-top: 2rem;
-}
-
-.hero-cta:hover {
-  background-color: var(--accent-dark);
+  margin-top: 3rem;
+  padding: 1rem 1.5rem;
 }
 
 @media (min-width: 768px) {
