@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('../../assets/donovan-dean-photography-1eM821v3wBo-unsplash.jpg');
+  background-image: url('../../assets/adrianna-geo-RL4YWCilguk-unsplash.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -12,7 +12,6 @@
   padding: 20px;
   position: relative;
   line-height: 1;
-  margin-bottom: 10px;
 }
 
 /* Overlay */

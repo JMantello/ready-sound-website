@@ -1,6 +1,8 @@
 import React from 'react';
 import Package from './Package';
-import img from '../../assets/logo.svg';
+import standardPackageImg from '../../assets/dominik-kempf-JeMDicKJ8Gc-unsplash.jpg';
+import fullSoundImg from '../../assets/clement-felix-JFaw5Nge2e0-unsplash.jpg';
+import fullSoundLiveImg from '../../assets/thiago-barletta-6YBqEum6B2o-unsplash.jpg';
 
 const Packages = () => {
     // Define your packages data
@@ -15,7 +17,7 @@ const Packages = () => {
                 '2 Shure SM58 vocal microphones w/ stands',
                 'All necessary cables and power connections',
             ],
-            imgSource: img,
+            imgSource: standardPackageImg,
         },
         {
             title: 'Full Sound: DJ/Events',
@@ -28,7 +30,7 @@ const Packages = () => {
                 '1 Yamaha 15" powered subwoofer',
                 '2 Shure SM58 vocal microphones w/ stands',
             ],
-            imgSource: img,
+            imgSource: fullSoundImg,
         },
         {
             title: 'Full Sound: Live Music',
@@ -46,7 +48,7 @@ const Packages = () => {
                 '1 AKG drum microphone set',
                 '2 Radial DI boxes',
             ],
-            imgSource: img,
+            imgSource: fullSoundLiveImg,
         },
     ];
 

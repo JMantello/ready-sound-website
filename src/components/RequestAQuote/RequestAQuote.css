@@ -21,4 +21,7 @@
   background-color: rgba(6, 29, 67, 0.597);
   padding: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
 }
