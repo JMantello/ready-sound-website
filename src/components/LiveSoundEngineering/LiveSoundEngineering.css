@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
   background-color: var(--secondary-background);
 }
 
@@ -13,6 +13,8 @@
 
 .live-sound-engineering .right {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {

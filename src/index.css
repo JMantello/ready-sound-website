@@ -13,12 +13,14 @@
 }
 
 :root {
-    --primary-text: #343434;
-    --secondary-text: #414141;
+    /* --primary-text: #343434; */
+    --primary-text: #000000;
+    /* --secondary-text: #414141; */
     --accent: #F9BC50;
-    --accent-dark: #f9bb50e7;
+    --accent-dark: #f49c04;
     --background: #FFFFFF;
     --secondary-background: #E3E3E3;
+    --section-background: #f9f9f9;
     --font-size-small: 0.8rem;
     --font-size-medium: 1rem;
     --font-size-large: 1.5rem;
@@ -46,6 +48,7 @@ h5,
 h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 h2,
@@ -54,28 +57,12 @@ h3 {
     line-height: 1.4;
 }
 
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-p,
-a,
-ul {
-    margin: 1rem 0;
-}
-
 img {
     max-width: 100%;
-    height: auto;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 .button {
@@ -92,7 +79,7 @@ a {
 
 section {
     padding: 2rem 1.5rem;
-    background: #f9f9f9;
+    background: var(--section-background);
 }
 
 ul {
