@@ -3,7 +3,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   margin-bottom: 6rem;
   background-color: var(--secondary-background);
+}
+
+.live-sound-engineering .left {
+  max-width: 400px;
+}
+
+.live-sound-engineering .right {
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .live-sound-engineering {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .live-sound-engineering .right {
+    width: 50%;
+  }
+
 }
