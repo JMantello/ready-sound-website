@@ -54,7 +54,7 @@ const Packages = () => {
 
     return (
         <section className="packages">
-            <h2>Our Packages</h2>
+            <h2 className='section-title'>Our Packages</h2>
             {packages.map((pkg, index) => (
                 <Package
                     key={index}

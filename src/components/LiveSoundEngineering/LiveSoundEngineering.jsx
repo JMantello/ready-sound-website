@@ -9,7 +9,7 @@ const LiveSoundEngineering = () => {
       </div>
       <div className='right'>
         <h2>Live Sound Engineering</h2>
-        <h3>Make Your Live Event Easy with Professional Audio Support</h3>
+        <h4>Make Your Live Event Easy with Professional Audio Support</h4>
         <p>Let our experienced audio engineers handle your event, so everything runs smoothly and sounds perfect. Whether it’s a small event or a full production, we’re here to make it happen.</p>
         <ul className="rates">
           <li>$250 for a half day (up to 4 hours)</li>

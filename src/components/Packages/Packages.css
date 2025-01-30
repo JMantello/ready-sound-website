@@ -14,20 +14,6 @@
   padding: 1.5rem;
 }
 
-.packages h2 {
-  padding-bottom: 1.5rem;
-}
-
-.package h3 {
-  font-size: 1.5rem;
-  margin: 0.7rem 0;
-}
-
-h4 {
-  font-size: 1.2rem;
-  margin: 0.5rem 0;
-}
-
 .description {
   padding: 1rem 0;
 }
@@ -61,10 +47,6 @@ h4 {
 /* Select third package img */
 .package:nth-child(4) img {
   object-position: center 30%;
-}
-
-.package .button {
-  margin: 1rem auto;
 }
 
 @media screen and (min-width: 768px) {
