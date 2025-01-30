@@ -1,8 +1,8 @@
 import React from 'react';
 import Package from './Package';
-import standardPackageImg from '../../assets/dominik-kempf-JeMDicKJ8Gc-unsplash.jpg';
-import fullSoundImg from '../../assets/clement-felix-JFaw5Nge2e0-unsplash.jpg';
-import fullSoundLiveImg from '../../assets/thiago-barletta-6YBqEum6B2o-unsplash.jpg';
+import standardPackageImg from '/images/solo-mic.jpg';
+import fullSoundImg from '/images/pa-speaker.jpg';
+import fullSoundLiveImg from '/images/mixer-stage.jpg';
 
 const Packages = () => {
     // Define your packages data

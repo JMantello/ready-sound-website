@@ -20,6 +20,12 @@
     max-width: 120px;
 }
 
+.navbar-logo a {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
 .navbar-links {
     display: flex;
     flex-direction: column;
