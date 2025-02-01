@@ -6,7 +6,7 @@
 }
 
 .value-prop {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   max-width: 400px;
   /* 400 */
 }
@@ -43,4 +43,7 @@
 
 .icon-packages {
   background-image: url('/public/icons/package_2.svg');
+}
+
+@media screen and (min-width: 768px) {
 }
