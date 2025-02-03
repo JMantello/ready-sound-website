@@ -25,6 +25,7 @@
     --font-size-medium: 1rem;
     --font-size-large: 1.5rem;
     --font-size-xlarge: 2rem;
+    --content-width: 1200px;
 }
 
 html,
@@ -83,6 +84,7 @@ img {
 
 a {
     text-decoration: none;
+    color: var(--primary-text);
 }
 
 .button {

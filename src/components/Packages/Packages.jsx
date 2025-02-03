@@ -1,6 +1,6 @@
 import React from 'react';
 import Package from './Package';
-import standardPackageImg from '/images/solo-mic.jpg';
+import standardPackageImg from '/images/conference-crop.jpg';
 import fullSoundImg from '/images/pa-speaker.jpg';
 import fullSoundLiveImg from '/images/mixer-stage.jpg';
 

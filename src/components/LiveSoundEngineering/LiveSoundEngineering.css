@@ -1,9 +1,16 @@
 .live-sound-engineering {
+  margin: 0 auto;
+  background-color: var(--section-background);
+  padding: 6rem 0 12rem 0;
+}
+
+.live-sound-engineering .content-wrapper  {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10rem;
+  padding: 60px 20px;
+  gap: 20px;
   background-color: var(--secondary-background);
 }
 
@@ -15,12 +22,20 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  max-width: 800px;
 }
 
-@media screen and (min-width: 768px) {
-  .live-sound-engineering {
+.rates {
+  margin-top: 1rem;
+  font-weight: 500;
+  list-style: none;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 1028px) {
+  .live-sound-engineering .content-wrapper {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .live-sound-engineering .right {

@@ -3,14 +3,20 @@
     padding: 0;
 }
 
+.navbar .container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .navbar {
+    max-width: var(--content-width);
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     gap: 1.2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
 .navbar-logo {
@@ -23,7 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.4rem;
+    gap: 2.2rem;
 }
 
 @media screen and (min-width: 768px) {
